@@ -6,7 +6,7 @@
 /*   By: bjacobs <bjacobs@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 17:31:23 by bjacobs           #+#    #+#             */
-/*   Updated: 2023/01/18 21:51:58 by bjacobs       ########   odam.nl         */
+/*   Updated: 2024/06/23 21:35:55 by bjacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,5 @@ int	ft_atoi(const char *str)
 		num *= 10 + str[i] - '0';
 		i++;
 	}
-	printf("%d\n", num);
 	return (num * sign);
 }
